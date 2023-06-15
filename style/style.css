@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 22px;
+    border-radius: 15px;
+    width: 320px;
+}
+
+.image img {
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.description h1 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.description p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.time {
+    display: flex;
+    margin-bottom: 15px;
+    fle
+}
+
+.clock {
+    margin-left: 76px;
+    color: hsl(215, 51%, 70%);
+    display: inline-block;
+}
+
+.clock img {
+    margin-right: 7px;
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+    display: inline-block;
+    text-align: center;
+}
+
+.ethereum img {
+    margin-right: 7px;
+}
+
+hr {
+    border-color: hsl(215, 32%, 27%);
+}
+
+.avatar {
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 16px;
+}
+
+.avatar-name {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.avatar-name span {
+    color: white;
+    margin-left: 5px;
+}
